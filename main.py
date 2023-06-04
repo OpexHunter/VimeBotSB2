@@ -39,8 +39,7 @@ def work(dur, shutdown, tpd):
     if shutdown:
         subprocess.call(['shutdown', '/s', '/t', '90'])
 
-
-#Подсчёт велечин
+#
 toaster = ToastNotifier()
 
 #Граф интерфейс
